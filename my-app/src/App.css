@@ -1354,3 +1354,17 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main-container{
+    margin: 0 auto;
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+   .main-container{
+    margin: 0 auto;
+    width: 480px;
+  }
+}

@@ -1,6 +1,14 @@
 import React from 'react'
 
 const Seventhpage = () => {
+    const cardData = [
+        {
+          title: "Activity Classroom",
+          image: "./home-2-image-104.webp",
+          description:
+            "Semper feugiat nibh sed pulvinar proin gravida. Aliquam eleifend mi in nulla. In pellentesque massa placerat duis ultricies. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.",
+        },
+    ];
     return (
         <div className="seventh">
             <img src="./bg-banner-scaled.jpg" alt="" className="seventh-background" />
