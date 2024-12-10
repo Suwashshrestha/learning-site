@@ -1,0 +1,16 @@
+block chain-  decentralized, distributed ledger technology that records data in a secure, transparent, and immutable manner
+Components: Reusable building blocks of React applications, either functional or class-based.
+
+State: Local data storage for a component, managed with hooks like useState.
+
+Props: Read-only inputs passed from parent to child components for data sharing.
+
+Hooks: Functions like useState and useEffect to manage state and side effects in functional components.
+
+Virtual DOM: A lightweight in-memory representation of the DOM, enabling efficient updates.
+
+Context API: Provides a way to share state globally without prop drilling.
+
+Redux   : State management library often used with React for predictable state handling.
+
+SQL    : Language for managing relational databases (e.g., MySQL, PostgreSQL).
