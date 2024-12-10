@@ -19,8 +19,9 @@ function App() {
     <Router>
  < Top />
       <section className="first">
-      
+      <img src="./slider-2-bg.jpg" alt="" className="first-background"/>
         <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

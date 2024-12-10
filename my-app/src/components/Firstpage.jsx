@@ -3,6 +3,7 @@
 const Firstpage = () => {
     return (
         <div className="firstpage">
+
             <div className="main-container">
                 <div className="firstpage-wrapper">
                     <div className="firstpage1">
