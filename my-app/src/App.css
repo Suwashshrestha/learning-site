@@ -715,9 +715,9 @@ body {
     z-index: -1;
     height: 100%;
     width: 100%;
-   
+
     object-fit: cover;
-    
+
 
   }
 
@@ -856,8 +856,8 @@ body {
 .fifthpage {
   position: relative;
   overflow-x: clip;
-  
-  .fifth-background{
+
+  .fifth-background {
     position: absolute;
     z-index: -1;
     height: 100%;
@@ -865,9 +865,10 @@ body {
     object-fit: cover;
     padding-top: 500px;
     object-fit: cover;
-    
-   
+
+
   }
+
   .fifthpage-wrapper {
     margin-top: 200px;
     margin-bottom: 160px;
@@ -1036,20 +1037,21 @@ body {
 
   .fifthpage-footer {
     padding-bottom: 150px;
+
     .fifthpage-footer-wrapper {
       margin-top: 100px;
       display: flex;
       gap: 100px;
       align-items: flex-start;
-     
-     
+
+
 
       .left-wrapper {
         position: relative;
         flex-wrap: wrap;
         align-content: flex-start;
-        
-        .containt{
+
+        .containt {
           width: 600px;
         }
 
@@ -1065,7 +1067,7 @@ body {
           font-family: 'Rowdies', display;
           font-weight: 600;
           margin-bottom: 20px;
-         
+
         }
 
         .secondpage-button {
@@ -1100,59 +1102,67 @@ body {
             margin-right: 20px;
           }
         }
-        .right-image{
-          
+
+        .right-image {
+
           width: 100%;
           padding-top: 100px;
         }
       }
-      .right-wrapper{
+
+      .right-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         gap: 40px;
-        
-     
-        
-        .card2{
+
+
+
+        .card2 {
           background-color: white;
           /* height: 250px;
           width: 450px; */
           padding: 50px;
           border-radius: 15px;
-          h3{
+
+          h3 {
             color: black;
             font-size: 1.22rem;
             font-weight: 800;
-            
+
           }
-          h1{
+
+          h1 {
             color: rgb(82, 189, 68);
             font-size: 5rem;
             font-weight: 800;
-            
+
           }
-          p{
+
+          p {
             /* width: 120%; */
           }
-          
+
         }
-        .right-card-container{
-         
+
+        .right-card-container {
+
           margin-top: 100px;
-          
+
         }
-        
+
       }
     }
   }
 }
-.sixthpage{
-  .sixthpage-heading{
+
+.sixthpage {
+  .sixthpage-heading {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     h4 {
       color: rgb(88, 153, 133);
       font-size: 18px;
@@ -1164,7 +1174,7 @@ body {
       font-family: "Rowdies", sans-serif;
       font-size: 40px;
       color: #020202;
-      
+
       text-align: center;
       font-family: 'Rowdies', display;
       font-weight: 900;
@@ -1174,89 +1184,91 @@ body {
     }
 
   }
-  .sixthpage-card{
-    
-   
-  }
+
+  .sixthpage-card {}
+
   .cards-groups {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
-    
+
   }
 
   .card {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    width: 550px; 
+    width: 550px;
     padding: 16px;
   }
-  
- 
+
+
   .card-image-container {
     width: 100%;
     height: 200px;
-    overflow: hidden; 
+    overflow: hidden;
     border-radius: 8px;
     margin-bottom: 12px;
-  
-  .date{
-    position: absolute;
-    margin: 20px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #973FEA;
-    border-radius: 10px;
-    color: white;
-    font-weight: 900;
+
+    .date {
+      position: absolute;
+      margin: 20px;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #973FEA;
+      border-radius: 10px;
+      color: white;
+      font-weight: 900;
+    }
+
+    .card-image {
+
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
-  .card-image {
-    
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
-  
-  
+
+
   .card-title {
     font-size: 1.5rem;
     font-weight: bolder;
     margin: 8px 0;
     color: #333;
   }
-  .main-title{
 
-  display: flex;
+  .main-title {
 
-  .card-title-li {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 8px 0;
-    color:  #8012e7;
+    display: flex;
+
+    .card-title-li {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 8px 0;
+      color: #8012e7;
+    }
+
+    .card-title-li:hover {
+      color: #956a3b;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: bolder;
+      margin: 8px 0;
+      padding-left: 20px;
+    }
   }
-  .card-title-li:hover{
-    color: #956a3b;
-  }
-  h3{
-    font-size: 18px;
-    font-weight: bolder;
-    margin: 8px 0;
-    padding-left: 20px;
-  }
-}
-  
+
   .card-description {
     font-size: 0.9rem;
     color: #555;
     margin-bottom: 16px;
     line-height: 1.5;
   }
-  
-}
+
 
 .secondpage-button-input {
   position: absolute;
@@ -1284,45 +1296,51 @@ body {
     margin-right: 20px;
   }
 
-  
+
 }
-.seventh{
+}
+.seventh {
   position: relative;
   overflow-x: clip;
   margin-top: 200px;
-  .seventh-background{
+
+  .seventh-background {
     position: absolute;
     z-index: -1;
     object-fit: cover;
-    
+
     width: 100%;
-  
-  
+
+
   }
-  .seventhpage-wrapper{
+
+  .seventhpage-wrapper {
     padding-top: 240px;
     height: 900px;
-    .left-wrapper{
-      .header{
-        h3{
+
+    .left-wrapper {
+      .header {
+        h3 {
           color: #080808;
           font-size: 18px;
           font-weight: 700;
           text-transform: uppercase;
           margin-bottom: 10px;
         }
-        h1{
+
+        h1 {
           font-family: "Montserrrat", sans-serif;
           font-size: 40px;
           color: #020202;
-          
-          
+
+
           font-weight: 700;
-          
-          
+
+
         }
       }
-      .questions{
+
+      .questions {
         border: #020202 1px solid;
         background-color: white;
       }
