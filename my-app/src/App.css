@@ -76,13 +76,14 @@ body {
 .first {
   position: relative;
   overflow-x: clip;
+
   .first-background {
     position: absolute;
     z-index: -1;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
+
   }
 
 
@@ -1277,35 +1278,36 @@ body {
   }
 
 
-.secondpage-button-input {
-  position: absolute;
-  padding: 15px 10px;
-  background-color: #973FEA;
-  color: white;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  transition: all 0s ease;
+  .secondpage-button-input {
+    position: absolute;
+    padding: 15px 10px;
+    background-color: #973FEA;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0s ease;
 
-  &:hover {
-    outline: 2.5px dashed rgb(14, 1, 1);
-    background-color: #8012e7;
+    &:hover {
+      outline: 2.5px dashed rgb(14, 1, 1);
+      background-color: #8012e7;
+
+    }
+
+    span {
+      margin: 20px;
+    }
+
+    svg {
+      margin-right: 20px;
+    }
+
 
   }
-
-  span {
-    margin: 20px;
-  }
-
-  svg {
-    margin-right: 20px;
-  }
-
-
 }
-}
+
 .seventh {
   position: relative;
   overflow-x: clip;
@@ -1347,23 +1349,100 @@ body {
         }
       }
 
-      .questions {
-        border: #020202 1px solid;
+      .questions-answers {
+        border: #020202 2px solid;
         background-color: white;
+        border-radius: 20px;
+        padding: 30px;
+        margin-top: 50px;
       }
+
+      .card4 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        .questions {
+          display: flex;
+          justify-content: space-between;
+          font-size: 1.5rem;
+          font-weight: 900;
+          margin-bottom: 20px;
+          cursor: pointer;
+        }
+
+        .dropdown-icon {
+          font-size: 1.5rem;
+          transition: transform 0.3s ease;
+        }
+        
+        .dropdown-icon.open {
+          transform: rotate(180deg);
+        }
+        
+        .answers {
+          display: none;
+          margin-top: 10px;
+          font-size: 1rem;
+          color: #666;
+          opacity: 0;
+          transform: translateY(-10px);
+          transition: all 0.3s ease;
+        }
+        
+        .answers.show {
+          display: block;
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+      
+        .card4-img-group.show{
+          display: block;
+        }
+        .card4-img-group{
+          display: none;
+        }
+        .card4-img {
+          display: flex;
+          gap: 40px;
+          width: 100%;
+          position: relative;
+
+          .img-card4 {
+            margin-top: 40px;
+            width: 405px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 20px;
+            opacity: 1;
+          transform: translateY(0);
+
+          }
+
+        }
+
+        .line {
+          margin-top: 40px;
+          background-color: black;
+          height: 1px;
+        }
+      }
+
+
     }
   }
 }
 
 @media screen and (max-width: 768px) {
-  .main-container{
+  .main-container {
     margin: 0 auto;
     width: 768px;
   }
 }
 
 @media screen and (max-width: 480px) {
-   .main-container{
+  .main-container {
     margin: 0 auto;
     width: 480px;
   }
