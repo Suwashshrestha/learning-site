@@ -63,6 +63,12 @@ const Footer = () => {
                         <h5>© 2023 Wedesigntech. All Rights Reserved.</h5>
                         <div className="footer-footer-img-container">
                             <img src="payment-icon-1.png" alt="" className="footer-footer-img" />
+                            <img src="payment-icon-2.png" alt="" className="footer-footer-img" />
+                            <img src="payment-icon-3.png" alt="" className="footer-footer-img" />
+                            <img src="payment-icon-4.png" alt="" className="footer-footer-img" />
+                            <img src="payment-icon-5.png" alt="" className="footer-footer-img" />
+                            <img src="payment-icon-6.png" alt="" className="footer-footer-img" />
+                            <img src="payment-icon-7.png" alt="" className="footer-footer-img" />
                         </div>
 
                     </div>
