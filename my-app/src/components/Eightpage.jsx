@@ -59,17 +59,21 @@ const Eightpage = () => {
                 </div>
             </div>
             <div className="logo-container">
-                        <img src="new-brand1.webp" alt="" className="logo-image" />
-                        <img src="new-brand4.webp" alt="" className="logo-image" />
-                        <img src="new-brand5.webp" alt="" className="logo-image" />
-                        <img src="new-brand6.webp" alt="" className="logo-image" />
-                        <img src="new-brand7.webp" alt="" className="logo-image" />
-                        <img src="new-brand1.webp" alt="" className="logo-image" />
-                        <img src="new-brand4.webp" alt="" className="logo-image" />
-                        <img src="new-brand5.webp" alt="" className="logo-image" />
-                        <img src="new-brand6.webp" alt="" className="logo-image" />
-                        <img src="new-brand7.webp" alt="" className="logo-image" />
-                    </div>
+    <div className="logo-track">
+        <img src="new-brand1.webp" alt="" className="logo-image" />
+        <img src="new-brand4.webp" alt="" className="logo-image" />
+        <img src="new-brand5.webp" alt="" className="logo-image" />
+        <img src="new-brand6.webp" alt="" className="logo-image" />
+        <img src="new-brand7.webp" alt="" className="logo-image" />
+        
+        <img src="new-brand1.webp" alt="" className="logo-image" />
+        <img src="new-brand4.webp" alt="" className="logo-image" />
+        <img src="new-brand5.webp" alt="" className="logo-image" />
+        <img src="new-brand6.webp" alt="" className="logo-image" />
+        <img src="new-brand7.webp" alt="" className="logo-image" />
+    </div>
+</div>
+
         </div>
     )
 }
