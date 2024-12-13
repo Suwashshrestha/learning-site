@@ -1,4 +1,7 @@
 import React from 'react'
+import { BiSolidMessageRounded } from "react-icons/bi";
+import { IoVideocam } from "react-icons/io5";
+import { IoCall } from "react-icons/io5";
 import Card from './Card4';
 const Seventhpage = () => {
     const cardData = [
@@ -28,7 +31,7 @@ const Seventhpage = () => {
         },
     ];
     return (
-        <div className="seventh">
+        <div className="seventhpage">
             <img src="./bg-banner-scaled.jpg" alt="" className="seventh-background" />
             <div className="main-container">
                 <div className="seventhpage-wrapper">
@@ -46,6 +49,39 @@ const Seventhpage = () => {
                                     
                                 />
                             ))}
+                        </div>
+                    </div>
+                    <div className="right-wrapper">
+                        <div className="top-containt">
+                            
+                            <img src="./faq-contact.webp" alt="" className="right-img"/>
+                            <h1>Need Support?</h1>
+
+                            <p>Feugiat sed lectus vestibulum mattis fusce ut placerat orci ullamcorper velit.</p>
+                            <div className="top-containt-footer">
+                                <div className="contact">
+                                <BiSolidMessageRounded className="icon" />
+                                <h4>Contact Us</h4>
+                                </div>
+                                <div className="call">
+                                <IoCall className="icon"/>
+                                <h4>Call Us</h4>
+                                </div>
+                                <div className="video">
+                                <IoVideocam  className="icon"/>
+                                <h4>Video Call</h4>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                        <div className="buttom-containt">
+                            <h1>Download Our App</h1>
+                            <p>Egestas diam in arcu cursus. Porttitor leo a a lacus vestibulum diam sollicitudin. </p>
+                            <div className="img-btn">
+                                <img src="./playstore.webp" alt="" />
+                                <img src="./app-store.webp" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>

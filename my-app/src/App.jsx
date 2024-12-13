@@ -12,6 +12,8 @@ import Fourthpage from "./components/Fourthpage";
 import Fifthpage from "./components/Fifthpage";
 import Sixthpage from "./components/Sixthpage";
 import Seventhpage from "./components/Seventhpage";
+import Eightpage from "./components/Eightpage";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -47,6 +49,12 @@ function App() {
       </section>
       <section className="seventh">
         <Seventhpage />
+      </section>
+      <section className="eight">
+        <Eightpage />
+      </section>
+      <section className="footer">
+        <Footer />
       </section>
     </Router>
   );
