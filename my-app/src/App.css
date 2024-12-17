@@ -10,12 +10,14 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 @keyframes scroll-infinite {
   from {
-      transform: translateX(0);
+    transform: translateX(0);
   }
+
   to {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
 
@@ -247,12 +249,14 @@ body {
   .location {
     background-color: blueviolet;
     padding: 0px 0px 0px 40px;
-    width: 31%;
+    width: 38%;
     align-content: center;
     align-items: center;
-    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     position: relative;
+
 
     .content {
       color: white;
@@ -268,7 +272,7 @@ body {
     align-content: center;
     align-items: center;
     text-align: center;
-    width: 69%;
+    width: 63%;
     background-color: rgb(187, 238, 238);
     color: #020202;
     padding: 10px 80px 10px 0px;
@@ -281,7 +285,7 @@ body {
     position: absolute;
     top: 0;
     left: 30%;
-    width: 35%;
+    width: 10%;
     height: 100%;
     background-color: rgb(187, 238, 238);
     transform: skewX(-45deg);
@@ -944,48 +948,57 @@ body {
 
 
   .fifthpage-card {
-    display: flex;
-    justify-content: center;
+    
     align-items: center;
-    padding: 20px;
+
 
 
     .cards-groups {
       display: flex;
-      gap: 20px;
+      justify-content: space-between;
+      
+      
     }
 
     .card {
       height: 600px;
-      padding: 20px;
+
+
+
       text-align: center;
       position: relative;
+      
 
 
     }
 
-    .card:nth-child(1) {
-      background-color: #eb9c9c;
+    .background-fifths {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      object-fit: contain;
+      z-index: -1;
+     
+      padding-top: 20px;
     }
 
-    .card:nth-child(2) {
-      background-color: #98f898;
-    }
 
-    .card:nth-child(3) {
-      background-color: #91beee;
-    }
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
 
-    .card:nth-child(4) {
-      background-color: #a59154;
     }
 
     .card-image-container {
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
       border-radius: 50%;
+      overflow: hidden;
+      margin: -80px auto 50px;
 
-      margin: -130px auto 15px;
+
     }
 
 
@@ -1665,6 +1678,7 @@ body {
     color: #080808;
     margin-top: 8px;
   }
+
   .logo-container {
     display: flex;
     gap: 20px;
@@ -1673,29 +1687,29 @@ body {
     padding: 10px;
     scroll-behavior: smooth;
     margin-bottom: 100px;
-    
-}
+
+  }
 
 
-.logo-image {
+  .logo-image {
     padding-left: 150px;
     padding-right: 150px;
-   
+
     transition: transform 0.2s ease;
     border-right: 1px solid #444141;
-}
+  }
 
-.logo-image:hover {
+  .logo-image:hover {
     transform: scale(1.1);
     cursor: pointer;
-}
+  }
 
 
 
-.logo-container {
+  .logo-container {
     -ms-overflow-style: none;
     scrollbar-width: none;
-}
+  }
 
 
 
@@ -1718,38 +1732,44 @@ body {
 
 
   }
-  .footer-img-container{
-    
-    display: flex;
-    margin-top: -100px;
-    .img1{
-      position: relative;
-      width: 320px;
-      transform: rotate(15deg); 
-      
-      border: 2px solid white;
-    }
-    .img2{
-      position: relative;
-      width: 320px;
-      transform: rotate(-15deg); 
-      border: 2px solid white;
-      
-    }
-  }
-  .middle-footer{
+
+  .middle-footer {
+    width: 100%;
     background-color: rgb(163, 92, 245);
-    
+
+    .footer-img-container {
+      width: 100%;
+
+      margin-top: -100px;
+
+      .img1 {
+
+        width: 320px;
+        transform: rotate(15deg);
+
+        border: 2px solid white;
+      }
+
+      .img2 {
+
+        width: 320px;
+        transform: rotate(-15deg);
+        border: 2px solid white;
+
+      }
+    }
+
   }
-  .discription-containt{
+
+  .discription-containt {
     display: flex;
-   
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-top: 100px;
     margin-bottom: 50px;
     gap: 15px;
-    
+
     img {
       height: auto;
       width: 215px;
@@ -1757,61 +1777,61 @@ body {
 
 
     }
-    
 
-}
 
-.first-cotainer,
-.second-containt,
-.third-containt,
-.fourth-containt,
-.fifth-containt {
-   
-    
-    
+  }
+
+  .first-cotainer,
+  .second-containt,
+  .third-containt,
+  .fourth-containt,
+  .fifth-containt {
+
+
+
     border-radius: 8px;
-    
+
     text-align: left;
-}
+  }
 
 
 
-.first-cotainer p {
+  .first-cotainer p {
     margin: 8px 0;
     color: #f8f3f3;
     font-size: 14px;
     line-height: 1.6;
-}
+  }
 
-.first-cotainer h1 {
+  .first-cotainer h1 {
     margin-top: 16px;
     font-size: 18px;
     color: #f8f2f2;
-}
+  }
 
-.second-containt h1,
-.third-containt h1,
-.fourth-containt h1,
-.fifth-containt h1 {
+  .second-containt h1,
+  .third-containt h1,
+  .fourth-containt h1,
+  .fifth-containt h1 {
     margin-bottom: 12px;
     font-size: 20px;
     color: white;
     font-weight: bolder;
-}
+  }
 
-.second-containt p {
+  .second-containt p {
     font-size: 14px;
     color: white;
     margin-bottom: 8px;
-}
+  }
 
-.fifth-containt p {
+  .fifth-containt p {
     font-size: 14px;
     color: white;
     margin-bottom: 16px;
-}
+  }
 
-.fifth-containt .email {
+  .fifth-containt .email {
     width: 100%;
     padding: 18px;
     margin-bottom: 12px;
@@ -1819,9 +1839,9 @@ body {
     border-radius: 30px;
     font-size: 14px;
     background-color: #ddacfa;
-}
+  }
 
-.fifth-containt .suscribe {
+  .fifth-containt .suscribe {
     display: inline-block;
     padding: 18px;
     background-color: #dd6cc1;
@@ -1833,16 +1853,16 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     width: 100%;
-}
+  }
 
 
 
-.fifth-containt .suscribe:hover {
-  outline: 2.5px dashed rgb(241, 235, 235);
-}
+  .fifth-containt .suscribe:hover {
+    outline: 2.5px dashed rgb(241, 235, 235);
+  }
 
   .footer-footer {
-    
+
     height: 50px;
     background-color: #f86da2;
 
@@ -1853,16 +1873,18 @@ body {
       padding: 0 50px;
 
       font-size: 14px;
-      h5{
+
+      h5 {
         color: white;
       }
+
       .footer-footer-img-container {
         display: flex;
         gap: 20px;
 
- 
+
         padding: 10px;
-        
+
 
         .footer-footer-img {
           background-color: white;
@@ -1875,10 +1897,88 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .main-container {
     margin: 0 auto;
     width: 768px;
+  }
+
+  .cards-group {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .top-header {
+    display: grid;
+
+    .location {
+      width: 100%;
+      height: 30px;
+
+      justify-content: center;
+      display: flex;
+
+      .content {
+        align-items: center;
+        display: flex;
+      }
+
+    }
+
+    .mail {
+      width: 100%;
+      height: 30px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      display: flex;
+      padding: 0;
+    }
+
+    &::before {
+      display: none;
+    }
+
+  }
+
+  .firstpage {
+    .firstpage-wrapper {
+      .firstpage1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding-bottom: 100px;
+      }
+
+      .img1 {
+        display: none;
+      }
+    }
+  }
+  .secondpage-wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    .three-girls {
+      flex-direction: column;
+
+      .background-image,
+      .overlay-image {
+        max-width: 200px;
+      }
+    }
+
+    .secondpage1 {
+      margin-left: 0;
+      text-align: center;
+    }
   }
 }
 
@@ -1887,4 +1987,62 @@ body {
     margin: 0 auto;
     width: 480px;
   }
+
+  .top-header {
+    display: none;
+  }
+
+  .firstpage {
+    .firstpage-wrapper {
+      .firstpage1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding-bottom: 50px;
+      }
+
+      .img1 {
+        display: none;
+      }
+    }
+  }
+  .secondpage-wrapper {
+    margin: 40px 0;
+
+    .three-girls {
+      .star1 {
+        top: -30px;
+        right: 5px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .background-image,
+      .overlay-image {
+        max-width: 150px;
+      }
+    }
+
+    .secondpage1 {
+      padding: 10px;
+
+      .heading {
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+      }
+
+      .secondpage-button-input {
+        width: 100%;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
 }

@@ -8,24 +8,28 @@ const Fifthpage = () => {
       image: "./home-2-image-104.webp",
       description:
         "Semper feugiat nibh sed pulvinar proin gravida. Aliquam eleifend mi in nulla. In pellentesque massa placerat duis ultricies. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.",
+      image2: "./backgroung1.svg",
     },
     {
       title: "Play Classroom",
       image: "./home-2-image-103.webp",
       description:
         "Tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Nunc eget lorem dolor sed. Rutrum quisque.",
+        image2: "./backgroung2.svg",
     },
     {
       title: "Computer Classroom",
       image: "./home-2-image-102.webp",
       description:
         "Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Lacus luctus accumsan tortor posuere ac ut. Elementum facilisis leo vel fringilla est ullamcorper. neque aliquam vestibulum.",
+        image2: "./backgroung3.svg",
     },
     {
       title: "Science Lab",
       image: "./home-2-image-101.webp",
       description:
         "Rhoncus dolor purus non enim. Libero volutpat sed cras ornare arcu dui vivamus arcu. Lorem mollis aliquam ut porttitor leo a diam. Eros in cursus turpis massa tincidunt.",
+        image2: "./backgroung4.svg",
     },
   ];
 
@@ -49,7 +53,9 @@ const Fifthpage = () => {
               <Card
                 key={index}
                 title={card.title}
+                image2={card.image2}
                 image={card.image}
+                
                 description={card.description}
               />
             ))}
